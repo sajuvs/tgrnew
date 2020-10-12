@@ -1,0 +1,24 @@
+.navbar_brand_img {
+    height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 250px;
+}
+
+.footer_logo_img {
+    height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 250px;
+}
+
+.contact-area {
+    padding-bottom: 3rem;
+}
+
+
+
+.features-title {
+    padding-bottom: 2rem;
+}
+

@@ -3761,6 +3761,26 @@ p {
 }
 
 
+.services__subdiv li {
+  font-size: 12px;
+  font-weight: 700;
+  color: #ad0c0c;
+  line-height: 20px;
+  padding: 0 30px;
+  position: relative;
+  z-index: 5;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-top: 4px;
+}
+
 
 
 

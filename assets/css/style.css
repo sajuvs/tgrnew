@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800");
 
 body {
@@ -174,13 +173,22 @@ p {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-animation: ytp-spinner-easespin 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
-  -moz-animation: ytp-spinner-easespin 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
-  -o-animation: ytp-spinner-easespin 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
-  animation: ytp-spinner-easespin 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+  -webkit-animation: ytp-spinner-easespin 5332ms cubic-bezier(0.4, 0, 0.2, 1)
+    infinite both;
+  -moz-animation: ytp-spinner-easespin 5332ms cubic-bezier(0.4, 0, 0.2, 1)
+    infinite both;
+  -o-animation: ytp-spinner-easespin 5332ms cubic-bezier(0.4, 0, 0.2, 1)
+    infinite both;
+  animation: ytp-spinner-easespin 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite
+    both;
 }
 
-.preloader .loader .ytp-spinner .ytp-spinner-container .ytp-spinner-rotator .ytp-spinner-left {
+.preloader
+  .loader
+  .ytp-spinner
+  .ytp-spinner-container
+  .ytp-spinner-rotator
+  .ytp-spinner-left {
   position: absolute;
   top: 0;
   left: 0;
@@ -189,7 +197,12 @@ p {
   right: 50%;
 }
 
-.preloader .loader .ytp-spinner .ytp-spinner-container .ytp-spinner-rotator .ytp-spinner-right {
+.preloader
+  .loader
+  .ytp-spinner
+  .ytp-spinner-container
+  .ytp-spinner-rotator
+  .ytp-spinner-right {
   position: absolute;
   top: 0;
   right: 0;
@@ -214,18 +227,24 @@ p {
   left: 0;
   right: -100%;
   border-right-color: #e9ecef;
-  -webkit-animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
-  -moz-animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
-  -o-animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
-  animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+  -webkit-animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1)
+    infinite both;
+  -moz-animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1)
+    infinite both;
+  -o-animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1)
+    infinite both;
+  animation: ytp-spinner-left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite
+    both;
 }
 
 .preloader .loader .ytp-spinner-right .ytp-spinner-circle {
   left: -100%;
   right: 0;
   border-left-color: #e9ecef;
-  -webkit-animation: ytp-right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
-  -moz-animation: ytp-right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+  -webkit-animation: ytp-right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite
+    both;
+  -moz-animation: ytp-right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite
+    both;
   -o-animation: ytp-right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: ytp-right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
 }
@@ -578,7 +597,12 @@ p {
   overflow: hidden;
   line-height: 50px;
   color: #fff;
-  background: -webkit-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #0067f4 0%,
+    #2bdbdc 50%,
+    #0067f4 100%
+  );
   background: -o-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background: linear-gradient(to right, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   border: 0;
@@ -687,7 +711,12 @@ p {
   overflow: hidden;
   line-height: 50px;
   color: #fff;
-  background: -webkit-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #0067f4 0%,
+    #2bdbdc 50%,
+    #0067f4 100%
+  );
   background: -o-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background: linear-gradient(to right, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   border: 0;
@@ -783,7 +812,12 @@ p {
   overflow: hidden;
   line-height: 50px;
   color: #fff;
-  background: -webkit-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #0067f4 0%,
+    #2bdbdc 50%,
+    #0067f4 100%
+  );
   background: -o-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background: linear-gradient(to right, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background-size: 200% auto;
@@ -898,7 +932,12 @@ p {
   overflow: hidden;
   line-height: 50px;
   color: #fff;
-  background: -webkit-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #0067f4 0%,
+    #2bdbdc 50%,
+    #0067f4 100%
+  );
   background: -o-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background: linear-gradient(to right, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background-size: 200% auto;
@@ -993,7 +1032,12 @@ p {
 .semi-rounded-buttons .semi-rounded-three {
   overflow: hidden;
   line-height: 52px;
-  background: -webkit-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #0067f4 0%,
+    #2bdbdc 50%,
+    #0067f4 100%
+  );
   background: -o-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background: linear-gradient(to right, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background-size: 200% auto;
@@ -1107,7 +1151,12 @@ p {
   padding-right: 60px;
   overflow: hidden;
   line-height: 52px;
-  background: -webkit-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #0067f4 0%,
+    #2bdbdc 50%,
+    #0067f4 100%
+  );
   background: -o-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background: linear-gradient(to right, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background-size: 200% auto;
@@ -1202,7 +1251,12 @@ p {
 .rounded-buttons .rounded-three {
   overflow: hidden;
   line-height: 52px;
-  background: -webkit-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #0067f4 0%,
+    #2bdbdc 50%,
+    #0067f4 100%
+  );
   background: -o-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background: linear-gradient(to right, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background-size: 200% auto;
@@ -1316,7 +1370,12 @@ p {
   padding-right: 60px;
   overflow: hidden;
   line-height: 52px;
-  background: -webkit-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #0067f4 0%,
+    #2bdbdc 50%,
+    #0067f4 100%
+  );
   background: -o-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background: linear-gradient(to right, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background-size: 200% auto;
@@ -1410,7 +1469,12 @@ p {
   line-height: 52px;
   color: #fff;
   border: 0;
-  background: -webkit-linear-gradient(left, #4da422 0%, #69e02e 50%, #4da422 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #4da422 0%,
+    #69e02e 50%,
+    #4da422 100%
+  );
   background: -o-linear-gradient(left, #4da422 0%, #69e02e 50%, #4da422 100%);
   background: linear-gradient(to right, #4da422 0%, #69e02e 50%, #4da422 100%);
   background-size: 200% auto;
@@ -1525,7 +1589,12 @@ p {
   line-height: 52px;
   color: #fff;
   border: 0;
-  background: -webkit-linear-gradient(left, #4da422 0%, #69e02e 50%, #4da422 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #4da422 0%,
+    #69e02e 50%,
+    #4da422 100%
+  );
   background: -o-linear-gradient(left, #4da422 0%, #69e02e 50%, #4da422 100%);
   background: linear-gradient(to right, #4da422 0%, #69e02e 50%, #4da422 100%);
   background-size: 200% auto;
@@ -1630,7 +1699,12 @@ p {
   line-height: 52px;
   color: #fff;
   border: 0;
-  background: -webkit-linear-gradient(left, #ffb400 0%, #f7e500 50%, #ffb400 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #ffb400 0%,
+    #f7e500 50%,
+    #ffb400 100%
+  );
   background: -o-linear-gradient(left, #ffb400 0%, #f7e500 50%, #ffb400 100%);
   background: linear-gradient(to right, #ffb400 0%, #f7e500 50%, #ffb400 100%);
   background-size: 200% auto;
@@ -1745,7 +1819,12 @@ p {
   line-height: 52px;
   color: #fff;
   border: 0;
-  background: -webkit-linear-gradient(left, #ffb400 0%, #f7e500 50%, #ffb400 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #ffb400 0%,
+    #f7e500 50%,
+    #ffb400 100%
+  );
   background: -o-linear-gradient(left, #ffb400 0%, #f7e500 50%, #ffb400 100%);
   background: linear-gradient(to right, #ffb400 0%, #f7e500 50%, #ffb400 100%);
   background-size: 200% auto;
@@ -1837,7 +1916,12 @@ p {
   line-height: 52px;
   color: #fff;
   border: 0;
-  background: -webkit-linear-gradient(left, #00b8d8 0%, #32fbfc 50%, #00b8d8 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #00b8d8 0%,
+    #32fbfc 50%,
+    #00b8d8 100%
+  );
   background: -o-linear-gradient(left, #00b8d8 0%, #32fbfc 50%, #00b8d8 100%);
   background: linear-gradient(to right, #00b8d8 0%, #32fbfc 50%, #00b8d8 100%);
   background-size: 200% auto;
@@ -1952,7 +2036,12 @@ p {
   line-height: 52px;
   color: #fff;
   border: 0;
-  background: -webkit-linear-gradient(left, #00b8d8 0%, #32fbfc 50%, #00b8d8 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #00b8d8 0%,
+    #32fbfc 50%,
+    #00b8d8 100%
+  );
   background: -o-linear-gradient(left, #00b8d8 0%, #32fbfc 50%, #00b8d8 100%);
   background: linear-gradient(to right, #00b8d8 0%, #32fbfc 50%, #00b8d8 100%);
   background-size: 200% auto;
@@ -2044,7 +2133,12 @@ p {
   line-height: 52px;
   color: #fff;
   border: 0;
-  background: -webkit-linear-gradient(left, #fc3832 0%, #dc312b 50%, #fc3832 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #fc3832 0%,
+    #dc312b 50%,
+    #fc3832 100%
+  );
   background: -o-linear-gradient(left, #fc3832 0%, #dc312b 50%, #fc3832 100%);
   background: linear-gradient(to right, #fc3832 0%, #dc312b 50%, #fc3832 100%);
   background-size: 200% auto;
@@ -2159,7 +2253,12 @@ p {
   line-height: 52px;
   color: #fff;
   border: 0;
-  background: -webkit-linear-gradient(left, #fc3832 0%, #dc312b 50%, #fc3832 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #fc3832 0%,
+    #dc312b 50%,
+    #fc3832 100%
+  );
   background: -o-linear-gradient(left, #fc3832 0%, #dc312b 50%, #fc3832 100%);
   background: linear-gradient(to right, #fc3832 0%, #dc312b 50%, #fc3832 100%);
   background-size: 200% auto;
@@ -2395,7 +2494,12 @@ p {
   z-index: 5;
   overflow: hidden;
   color: #fff;
-  background: -webkit-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #0067f4 0%,
+    #2bdbdc 50%,
+    #0067f4 100%
+  );
   background: -o-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background: linear-gradient(to right, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background-size: 200% auto;
@@ -2421,7 +2525,12 @@ p {
   z-index: 5;
   overflow: hidden;
   color: #fff;
-  background: -webkit-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #0067f4 0%,
+    #2bdbdc 50%,
+    #0067f4 100%
+  );
   background: -o-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background: linear-gradient(to right, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background-size: 200% auto;
@@ -2448,7 +2557,12 @@ p {
   z-index: 5;
   overflow: hidden;
   color: #fff;
-  background: -webkit-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #0067f4 0%,
+    #2bdbdc 50%,
+    #0067f4 100%
+  );
   background: -o-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background: linear-gradient(to right, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background-size: 200% auto;
@@ -2475,7 +2589,12 @@ p {
   z-index: 5;
   overflow: hidden;
   color: #fff;
-  background: -webkit-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #0067f4 0%,
+    #2bdbdc 50%,
+    #0067f4 100%
+  );
   background: -o-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background: linear-gradient(to right, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background-size: 200% auto;
@@ -2658,7 +2777,12 @@ p {
   overflow: hidden;
   color: #fff;
   line-height: 52px;
-  background: -webkit-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #0067f4 0%,
+    #2bdbdc 50%,
+    #0067f4 100%
+  );
   background: -o-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background: linear-gradient(to right, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background-size: 200% auto;
@@ -2763,7 +2887,12 @@ p {
   overflow: hidden;
   color: #fff;
   line-height: 52px;
-  background: -webkit-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #0067f4 0%,
+    #2bdbdc 50%,
+    #0067f4 100%
+  );
   background: -o-linear-gradient(left, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background: linear-gradient(to right, #0067f4 0%, #2bdbdc 50%, #0067f4 100%);
   background-size: 200% auto;
@@ -3205,12 +3334,20 @@ p {
 
 .navbar-area .navbar .navbar-nav .nav-item a::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 32px;
   height: 4px;
-  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.1) 0%, white 100%);
+  background: -webkit-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0.1) 0%,
+    white 100%
+  );
   background: -o-linear-gradient(left, rgba(255, 255, 255, 0.1) 0%, white 100%);
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.1) 0%, white 100%);
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.1) 0%,
+    white 100%
+  );
   left: 50%;
   margin: 0 2px;
   bottom: 14px;
@@ -3238,30 +3375,28 @@ p {
   }
 }
 
-.navbar-area .navbar .navbar-nav .nav-item.active>a,
-.navbar-area .navbar .navbar-nav .nav-item:hover>a {
+.navbar-area .navbar .navbar-nav .nav-item.active > a,
+.navbar-area .navbar .navbar-nav .nav-item:hover > a {
   opacity: 1;
   color: #fff;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-
-  .navbar-area .navbar .navbar-nav .nav-item.active>a,
-  .navbar-area .navbar .navbar-nav .nav-item:hover>a {
+  .navbar-area .navbar .navbar-nav .nav-item.active > a,
+  .navbar-area .navbar .navbar-nav .nav-item:hover > a {
     color: #121212;
   }
 }
 
 @media (max-width: 767px) {
-
-  .navbar-area .navbar .navbar-nav .nav-item.active>a,
-  .navbar-area .navbar .navbar-nav .nav-item:hover>a {
+  .navbar-area .navbar .navbar-nav .nav-item.active > a,
+  .navbar-area .navbar .navbar-nav .nav-item:hover > a {
     color: #121212;
   }
 }
 
-.navbar-area .navbar .navbar-nav .nav-item.active>a::before,
-.navbar-area .navbar .navbar-nav .nav-item:hover>a::before {
+.navbar-area .navbar .navbar-nav .nav-item.active > a::before,
+.navbar-area .navbar .navbar-nav .nav-item:hover > a::before {
   -webkit-transform: translate(-50%) scaleX(1);
   -moz-transform: translate(-50%) scaleX(1);
   -ms-transform: translate(-50%) scaleX(1);
@@ -3343,7 +3478,11 @@ p {
 }
 
 .navbar-area.sticky .navbar .navbar-nav .nav-item a::before {
-  background: -webkit-linear-gradient(left, rgba(18, 18, 18, 0) 0%, #121212 100%);
+  background: -webkit-linear-gradient(
+    left,
+    rgba(18, 18, 18, 0) 0%,
+    #121212 100%
+  );
   background: -o-linear-gradient(left, rgba(18, 18, 18, 0) 0%, #121212 100%);
   background: linear-gradient(to right, rgba(18, 18, 18, 0) 0%, #121212 100%);
 }
@@ -3367,24 +3506,32 @@ p {
 
 /*===========================
        10.SLIDER css 
-===========================*/ 
-
+===========================*/
 
 .carousel-item {
   height: 350px;
-  
+
   background-color: #0067f4;
   position: relative;
 }
 
 .carousel-item::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 33%;
   height: 100%;
-  background: -webkit-linear-gradient(rgba(0, 103, 244, 0.3) 0%, rgba(43, 219, 220, 0.3) 100%);
-  background: -o-linear-gradient(rgba(0, 103, 244, 0.3) 0%, rgba(43, 219, 220, 0.3) 100%);
-  background: linear-gradient(rgba(0, 103, 244, 0.3) 0%, rgba(43, 219, 220, 0.3) 100%);
+  background: -webkit-linear-gradient(
+    rgba(0, 103, 244, 0.3) 0%,
+    rgba(43, 219, 220, 0.3) 100%
+  );
+  background: -o-linear-gradient(
+    rgba(0, 103, 244, 0.3) 0%,
+    rgba(43, 219, 220, 0.3) 100%
+  );
+  background: linear-gradient(
+    rgba(0, 103, 244, 0.3) 0%,
+    rgba(43, 219, 220, 0.3) 100%
+  );
   top: 0;
   right: 15%;
   -webkit-transform: skewX(20deg);
@@ -3432,8 +3579,6 @@ p {
   max-width: 680px;
   width: 100%;
 }
-
-
 
 .slider-content {
   position: relative;
@@ -3589,7 +3734,6 @@ p {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-
   .carousel .carousel-control-prev,
   .carousel .carousel-control-next {
     left: 30px;
@@ -3597,7 +3741,6 @@ p {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-
   .carousel .carousel-control-prev,
   .carousel .carousel-control-next {
     display: none;
@@ -3605,7 +3748,6 @@ p {
 }
 
 @media (max-width: 767px) {
-
   .carousel .carousel-control-prev,
   .carousel .carousel-control-next {
     display: none;
@@ -3726,7 +3868,6 @@ p {
   margin-top: 16px;
 }
 
-
 .services__div ul li {
   font-size: 14px;
   font-weight: 700;
@@ -3747,7 +3888,6 @@ p {
   margin-top: 4px;
 }
 
-
 .services__subdiv li {
   font-size: 12px;
   font-weight: 700;
@@ -3767,9 +3907,6 @@ p {
   overflow: hidden;
   margin-top: 4px;
 }
-
-
-
 
 /*===========================
       18.PORTFOLIO css 
@@ -3821,7 +3958,7 @@ p {
 
 .portfolio-menu ul li::before {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   width: 100%;
@@ -3888,13 +4025,22 @@ p {
   padding: 16px;
 }
 
-.single-portfolio .portfolio-image .portfolio-overlay .portfolio-content .portfolio-icon {
+.single-portfolio
+  .portfolio-image
+  .portfolio-overlay
+  .portfolio-content
+  .portfolio-icon {
   position: relative;
   display: inline-block;
   margin: 0 20px;
 }
 
-.single-portfolio .portfolio-image .portfolio-overlay .portfolio-content .portfolio-icon a {
+.single-portfolio
+  .portfolio-image
+  .portfolio-overlay
+  .portfolio-content
+  .portfolio-icon
+  a {
   font-size: 48px;
   color: #0067f4;
   position: relative;
@@ -3902,7 +4048,12 @@ p {
   line-height: 50px;
 }
 
-.single-portfolio .portfolio-image .portfolio-overlay .portfolio-content .portfolio-icon .shape {
+.single-portfolio
+  .portfolio-image
+  .portfolio-overlay
+  .portfolio-content
+  .portfolio-icon
+  .shape {
   position: absolute;
   top: 7px;
   left: 0;
@@ -4099,8 +4250,8 @@ p {
 }
 
 .about-area .about-accordion .accordion .card .card-header a::before {
-  content: '\ea58';
-  font-family: 'LineIcons';
+  content: "\ea58";
+  font-family: "LineIcons";
   position: absolute;
   top: 50%;
   right: 0;
@@ -4112,7 +4263,7 @@ p {
 }
 
 .about-area .about-accordion .accordion .card .card-header .collapsed::before {
-  content: '\ea5c';
+  content: "\ea5c";
 }
 
 .about-area .about-accordion .accordion .card .card-body {
@@ -4177,19 +4328,31 @@ p {
   margin-right: 3px;
 }
 
-.testimonial-area .testimonial-left-content .testimonial-line li:nth-of-type(1) {
+.testimonial-area
+  .testimonial-left-content
+  .testimonial-line
+  li:nth-of-type(1) {
   width: 40px;
 }
 
-.testimonial-area .testimonial-left-content .testimonial-line li:nth-of-type(2) {
+.testimonial-area
+  .testimonial-left-content
+  .testimonial-line
+  li:nth-of-type(2) {
   width: 15px;
 }
 
-.testimonial-area .testimonial-left-content .testimonial-line li:nth-of-type(3) {
+.testimonial-area
+  .testimonial-left-content
+  .testimonial-line
+  li:nth-of-type(3) {
   width: 10px;
 }
 
-.testimonial-area .testimonial-left-content .testimonial-line li:nth-of-type(4) {
+.testimonial-area
+  .testimonial-left-content
+  .testimonial-line
+  li:nth-of-type(4) {
   width: 5px;
 }
 
@@ -4390,7 +4553,7 @@ p {
 
 .team-style-eleven .team-content::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   top: 0;
@@ -4512,7 +4675,6 @@ p {
       19.CONTACT css 
 ===========================*/
 .contact-area {
-
   padding-top: 10px;
   padding-bottom: 0px;
   background-color: #f4f6f7;
@@ -4677,11 +4839,9 @@ p.form-message.error.form-message.error {
 }
 
 .footer-area .copyright text {
-  
   font-size: small;
   color: rgb(68, 142, 226);
 }
-
 
 .footer-area.footer-dark {
   background-color: #969292;
@@ -4738,4 +4898,10 @@ p.form-message.error.form-message.error {
   background-color: #0067f4;
 }
 
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=style.css.map */

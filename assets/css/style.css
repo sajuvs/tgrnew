@@ -3641,8 +3641,8 @@ p {
 /*===== features TWO =====*/
 .features-area {
   background-color: #f4f6f7;
-  padding-top: 120px;
-  padding-bottom: 130px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .single-features {
@@ -4513,8 +4513,8 @@ p {
 ===========================*/
 .contact-area {
 
-  padding-top: 120px;
-  padding-bottom: 130px;
+  padding-top: 10px;
+  padding-bottom: 0px;
   background-color: #f4f6f7;
 }
 
@@ -4545,6 +4545,7 @@ p.form-message.error.form-message.error {
 }
 
 .contact-info .single-contact-info .contact-info-icon i {
+  align-content: center;
   width: 50px;
   height: 50px;
   line-height: 50px;
@@ -4555,6 +4556,7 @@ p.form-message.error.form-message.error {
 }
 
 .contact-info .single-contact-info .contact-info-content {
+  padding-top: 20px;
   padding-left: 20px;
 }
 

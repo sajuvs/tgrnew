@@ -3371,7 +3371,7 @@ p {
 
 
 .carousel-item {
-  height: 400px;
+  height: 350px;
   
   background-color: #0067f4;
   position: relative;
@@ -3450,7 +3450,7 @@ p {
 }
 
 .slider-content .title {
-  font-size: 48px;
+  font-size: 42px;
   line-height: 50px;
   padding-bottom: 40px;
   color: #fff;

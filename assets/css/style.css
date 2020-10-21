@@ -1,24 +1,4 @@
-/*-----------------------------------------------------------------------------------
 
-    Template Name: Smash - Bootstrap Template
-    Template URI: uideck.com
-    Author: UIdeck
-    Version: 1.0
-
------------------------------------------------------------------------------------
-
-    CSS INDEX
-    ===================
-
-    01. Theme default CSS
-	02. Header
-    03. Hero
-	04. Footer
-
------------------------------------------------------------------------------------*/
-/*===========================
-      01.COMMON css 
-===========================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800");
 
 body {
@@ -125,7 +105,7 @@ p {
 
 /*===== All Section Title Style =====*/
 .section-title .title {
-  font-size: 44px;
+  font-size: 32px;
   font-weight: 600;
   color: #121212;
   line-height: 55px;
@@ -3391,8 +3371,7 @@ p {
 
 
 .carousel-item {
-  
-  height: 500px;
+  height: 400px;
   
   background-color: #0067f4;
   position: relative;
@@ -3454,6 +3433,8 @@ p {
   width: 100%;
 }
 
+
+
 .slider-content {
   position: relative;
   z-index: 9;
@@ -3469,8 +3450,8 @@ p {
 }
 
 .slider-content .title {
-  font-size: 80px;
-  line-height: 90px;
+  font-size: 48px;
+  line-height: 50px;
   padding-bottom: 40px;
   color: #fff;
   font-weight: 700;
@@ -3670,7 +3651,7 @@ p {
 }
 
 .single-features .features-title-icon .features-title a {
-  font-size: 36px;
+  font-size: 28px;
   line-height: 45px;
   color: #121212;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -3747,7 +3728,7 @@ p {
 
 
 .services__div ul li {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   color: #6c6c6c;
   line-height: 48px;
@@ -4694,6 +4675,7 @@ p.form-message.error.form-message.error {
 }
 
 .footer-area .copyright text {
+  
   font-size: small;
   color: rgb(68, 142, 226);
 }
